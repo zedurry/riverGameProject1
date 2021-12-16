@@ -6,7 +6,7 @@
     height: 100vh;
     margin: 0;
     font-family: Helvetica;
-    background-image: url(/Natural\ 07.jpg);
+    background-image: url('https://i.postimg.cc/KcDnNydY/Natural-07.jpg');
     background-size:cover ;  
     display: grid;
     grid-template-columns: 1fr;
@@ -27,7 +27,8 @@
   }
   
   main {
-    color:goldenrod;
+    margin-left: 25px;
+    color:grey;
     grid-area: content;
   }
   
