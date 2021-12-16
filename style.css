@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100vh;
+    margin: 0;
+    font-family: Helvetica;
+    background-image: url(/Natural\ 07.jpg);
+    background-size:cover ;  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100px 400px auto;
+    grid-template-areas: 
+      "hdr"
+      "hdr2"
+      "content"
+      "pix";
+  }
+
+  h1 {
+    grid-area: hdr;
+  }
+  
+    h2 {
+    grid-area: hdr2;
+  }
+  
+  main {
+    color:goldenrod;
+    grid-area: content;
+  }
+  
+  div.imgs {
+    grid-area: pix;
+  }
+
+  h1, h2, div.imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media only screen and (min-width: 768px) {
+    body {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 100px 100px auto ;
+      grid-template-areas: 
+      "hdr hdr hdr hdr"
+      "hdr2 hdr2 hdr2 hdr2"
+      "content pix pix pix"
+      ;
+    }
+  }
