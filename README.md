@@ -11,5 +11,10 @@ JQuerry
 Deck of Cards API
 
 
-[Screen-Shot-2021-12-16-at-5-51-59-PM.png](https://postimg.cc/py8ZV9LM)
+[River Game Sceen shot.](https://postimg.cc/py8ZV9LM)
 
+
+[Click here to get started](https://zedurry.github.io/riverGameProject1/)
+
+Future Enhancments:
+The game is best played if we can make it multiplayer with the same deck.
